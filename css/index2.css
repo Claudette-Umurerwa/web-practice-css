@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Intro {
+    background: gray;
+    margin: 10px;
+    padding: 10px;
+    height: 100vh;
+    overflow: hidden ;
+
+}
+ .child2 {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 20px;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+
+
+ }
+
+ .one, .two, .three, .four, .five, .six {
+    background: red;
+    width: 60px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+ }
+
+
+
